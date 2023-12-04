@@ -12,7 +12,7 @@ from langchain.vectorstores.faiss import FAISS
 from rest_framework.generics import CreateAPIView
 import docsearch  # Import the docsearch library
 
-os.environ["OPENAI_API_KEY"] = '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'
+
 
 
 class UploadedFileCreateAPIView(CreateAPIView):
